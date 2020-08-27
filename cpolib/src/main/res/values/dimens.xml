@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="metric_band_width">3dp</dimen>
+    <dimen name="title_size">18sp</dimen>
+    <dimen name="content_size">15sp</dimen>
+</resources>

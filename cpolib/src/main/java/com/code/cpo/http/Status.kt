@@ -1,0 +1,29 @@
+package com.code.cpo.http
+
+/**
+ *  author : balance
+ *  date : 2020/8/20 3:50 PM
+ *  description :
+ */
+enum class Status {
+    CALL_START,
+    DNS_START,
+    DNS_END,
+    CONNECT_START,
+    SECURE_CONNECT_START,
+    SECURE_CONNECT_END,
+    CONNECT_END,
+    CONNECT_FAIL,
+    CONNECTION_ACQUIRED,
+    CONNECTION_RELEASED,
+    REQUEST_HEAD_START,
+    REQUEST_HEAD_END,
+    REQUEST_BODY_START,
+    REQUEST_BODY_END,
+    RESPONSE_HEADER_START,
+    RESPONSE_HEADER_END,
+    RESPONSE_BODY_START,
+    RESPONSE_BODY_END,
+    CALL_END,
+    CALL_FAIL
+}
